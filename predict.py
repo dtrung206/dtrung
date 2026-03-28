@@ -32,7 +32,7 @@ y = df['kWh']
 model = LinearRegression()
 model.fit(X, y)
 
-# 4. Dự báo (ĐÃ SỬA LỖI WARNING Ở ĐÂY)
+# 4. Dự báo
 # Chúng ta tạo DataFrame có tên cột khớp 100% với lúc huấn luyện (X)
 future_data = pd.DataFrame({
     'Month_Index': [15, 16, 17],
